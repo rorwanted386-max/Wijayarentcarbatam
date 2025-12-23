@@ -1,5 +1,9 @@
 import { Users, Fuel, Settings, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import avanzaImg from "@/assets/cars/avanza.jpg";
+import xpanderImg from "@/assets/cars/xpander.jpg";
+import innovaImg from "@/assets/cars/innova.png";
+import hiaceImg from "@/assets/cars/hiace.png";
 
 const cars = [
   {
@@ -10,7 +14,7 @@ const cars = [
     fuel: "Bensin",
     price: "800.000",
     rating: 4.8,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2022_Toyota_Avanza_1.5_G_%28F80%29%2C_South_Tangerang.jpg/1280px-2022_Toyota_Avanza_1.5_G_%28F80%29%2C_South_Tangerang.jpg",
+    image: avanzaImg,
     popular: false,
   },
   {
@@ -21,7 +25,7 @@ const cars = [
     fuel: "Bensin",
     price: "700.000",
     rating: 4.9,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/2021_Mitsubishi_Xpander_Cross_Premium_Package_1.5_AT_%28facelift%29%2C_South_Tangerang_%28cropped%29.jpg/1280px-2021_Mitsubishi_Xpander_Cross_Premium_Package_1.5_AT_%28facelift%29%2C_South_Tangerang_%28cropped%29.jpg",
+    image: xpanderImg,
     popular: true,
   },
   {
@@ -32,7 +36,7 @@ const cars = [
     fuel: "Diesel/Bensin",
     price: "800.000",
     rating: 4.9,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/2018_Toyota_Kijang_Innova_2.4_V_wagon_%28GUN142R%3B_01-12-2019%29%2C_South_Tangerang.jpg/1280px-2018_Toyota_Kijang_Innova_2.4_V_wagon_%28GUN142R%3B_01-12-2019%29%2C_South_Tangerang.jpg",
+    image: innovaImg,
     popular: false,
   },
   {
@@ -43,7 +47,7 @@ const cars = [
     fuel: "Diesel",
     price: "1.200.000",
     rating: 4.7,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/2019_Toyota_HiAce_Commuter_%28facelift%29%2C_Front.jpg/1280px-2019_Toyota_HiAce_Commuter_%28facelift%29%2C_Front.jpg",
+    image: hiaceImg,
     popular: false,
   },
 ];
