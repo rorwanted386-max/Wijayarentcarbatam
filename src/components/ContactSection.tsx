@@ -84,7 +84,7 @@ const ContactSection = () => {
 
             {/* Map Placeholder */}
             <div className="aspect-video rounded-2xl overflow-hidden bg-muted relative">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.49456488872!2d106.68943194023437!3d-6.229386900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="100%" style={{
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0547!2d104.0308!3d1.1397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98924a3c7d7e7%3A0x5f4c3f0c7c4f3c3c!2sJl.%20Imam%20Bonjol%2C%20Nagoya%2C%20Batam!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" width="100%" height="100%" style={{
               border: 0
             }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Lokasi Wijaya Rent Car" className="absolute inset-0" />
             </div>
