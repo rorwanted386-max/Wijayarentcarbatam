@@ -1,41 +1,22 @@
 import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
 import logo from "@/assets/logo-wijaya.png";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  return (
-    <footer className="bg-primary text-primary-foreground">
+  return <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <img 
-              src={logo} 
-              alt="Wijaya Rent Car" 
-              className="h-20 w-auto mb-6"
-            />
+            <img src={logo} alt="Wijaya Rent Car" className="h-20 w-auto mb-6" />
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
               Mitra perjalanan terpercaya Anda. Menyediakan layanan sewa mobil berkualitas 
               dengan armada terawat dan pelayanan profesional.
             </p>
             <div className="flex gap-4">
-              <a 
-                href="https://instagram.com/wijayarentcar" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors"
-                aria-label="Instagram Wijaya Rent Car"
-              >
+              <a href="https://instagram.com/wijayarentcar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors" aria-label="Instagram Wijaya Rent Car">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a 
-                href="https://facebook.com/wijayarentcar" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors"
-                aria-label="Facebook Wijaya Rent Car"
-              >
+              <a href="https://facebook.com/wijayarentcar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors" aria-label="Facebook Wijaya Rent Car">
                 <Facebook className="h-5 w-5" />
               </a>
             </div>
@@ -99,8 +80,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent flex-shrink-0" />
-                <a href="mailto:info@wijayarentcar.com" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  info@wijayarentcar.com
+                <a className="text-primary-foreground/80 hover:text-accent transition-colors" href="mailto:wijayarentcarbtm@gmail.com">
+                  ​wijayarentcarbtm@gmail.com
                 </a>
               </li>
             </ul>
@@ -114,8 +95,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
